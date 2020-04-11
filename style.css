@@ -1,0 +1,243 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#title{
+  background-color: #ff4c68;
+
+  color: #fff;
+
+  padding: 4% 4%;
+
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+
+.row{
+  padding: 3% 15%;
+  width: 100%;
+
+
+}
+
+.fab{
+  margin-right: 10px;
+
+}
+
+
+/* navigation bar */
+.navbar{
+  margin-bottom:4.5rem;
+
+}
+
+.navbar-brand{
+  font-size:3.5rem;
+
+  font-weight: bold;
+
+}
+
+.fa-fire:hover{
+  color:red;
+}
+
+.fa-fire{
+  color: #fff;
+  margin-right: 20px;
+  font-size: 3.0rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.brnd{
+  position: relative;
+  left: 40px;
+  top: 70px;
+}
+
+
+
+/* download-buttons */
+.download-buttons{
+  margin: 5% 2% 0 1%;
+}
+
+
+/* Title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 20px;
+  position: absolute;
+  left: 180px;
+  top:25
+  px;
+
+}
+
+
+/* features */
+
+#features{
+
+
+  background-color: #fff;
+  position: relative;
+
+
+}
+.feature-box{
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 5%;
+  background-color: #fff;
+
+
+
+
+}
+
+.feature-row{
+  width: 100%;
+}
+
+.headings{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.Feature-para{
+  color: #8f8f8f;
+
+
+}
+p{
+  color: #8f8f8f;
+
+}
+
+
+.icon{
+  font-size: 4.0rem;
+  margin-bottom: 1rem;
+
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #00CED1;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials{
+
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2.0;
+  color: #fff;
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+
+
+#press{
+  background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.press-image{
+  width: 15%;
+
+  margin: 20px 20px 50px;
+
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing-section */
+#pricing{
+  text-align: center;
+  padding: 100px;
+
+}
+
+/* Media-query */
+@media (max-width:1000px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-top: 20px;
+  }
+
+}
+
+/* Call to action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:30px 0 30px 0 ;
+
+  color: #fff;
+
+
+
+
+}
+.cta-h3{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 2.2rem;
+  font-weight: bold;
+
+}
+
+/* footer */
+#Footer{
+  text-align: center;
+  background-color: #fff;
+  padding:60px 0 30px 0;
+}
+
+.footer-para{
+  margin-top: 0.625rem;
+}
+.footer-icon:hover{
+  color: #00CED1;
+}
